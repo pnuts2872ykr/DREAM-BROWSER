@@ -8,15 +8,15 @@
     "build": "npx electron-builder",
     "makeEnv": "src\\environment.cmd"
   },
-  "author": "VCborn <support@vcborn.com>",
-  "homepage": "https://vcborn.com/services/DREAM-BROWSER/",
+  "author": "pnuts2882ykr <support@pnuts2882ykr.com>",
+  "homepage": "https://pnuts2882ykr.com/services/DREAM-BROWSER/",
   "license": "monochrome",
   "devDependencies": {
     "electron": "^17.2.0",
     "electron-builder": "^22.14.13"
   },
   "build": {
-    "appId": "com.vcborn.DREAM-BROWSER",
+    "appId": "com.pnuts2882ykr.DREAM-BROWSER",
     "productName": "DREAM-BROWSER",
     "files": [
       "!.git",
@@ -31,7 +31,7 @@
     "win": {
       "icon": "src/image/logo.ico",
       "target": "portable",
-      "legalTrademarks": "Copyright 2021 VCborn"
+      "legalTrademarks": "Copyright 2021 pnuts2882ykr"
     },
     "nsis": {
       "artifactName": "${productName}_${version}_setup.${ext}",

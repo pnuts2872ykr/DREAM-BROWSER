@@ -3,8 +3,8 @@
 <table>
 <tbody>
   <tr>
-    <td><a href="https://github.com/vcborn/DREAM-BROWSER#readme">English</a></td>
-    <td><a href="https://github.com/vcborn/DREAM-BROWSER/blob/main/README_JP.md">日本語</a></td>
+    <td><a href="https://github.com/pnuts2882ykr/DREAM-BROWSER#readme">English</a></td>
+    <td><a href="https://github.com/pnuts2882ykr/DREAM-BROWSER/blob/main/README_JP.md">日本語</a></td>
   </tr>
   </tbody>
 </table>
@@ -61,10 +61,10 @@ VCLinuxに標準搭載。
 
 ## ダウンロード
 
-[こちら](https://vcborn.com/services/DREAM-BROWSER/)からダウンロードできます。  
-開発版ビルドは[こちら](https://nightly.link/vcborn/DREAM-BROWSER/workflows/build-dev/dev)からダウンロードできます。
+[こちら](https://pnuts2882ykr.com/services/DREAM-BROWSER/)からダウンロードできます。  
+開発版ビルドは[こちら](https://nightly.link/pnuts2882ykr/DREAM-BROWSER/workflows/build-dev/dev)からダウンロードできます。
 
 ---
 
-Copyright &copy; 2021 VCborn.  
+Copyright &copy; 2021 pnuts2882ykr.  
 DREAM-BROWSER is released under the [monochrome License](https://www.monochrome.tk/mncr/license).

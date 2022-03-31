@@ -3,8 +3,8 @@
 <table>
 <tbody>
   <tr>
-    <td><a href="https://github.com/vcborn/DREAM-BROWSER#readme">English</a></td>
-    <td><a href="https://github.com/vcborn/DREAM-BROWSER/blob/main/README_JP.md">日本語</a></td>
+    <td><a href="https://github.com/pnuts2882ykr/DREAM-BROWSER#readme">English</a></td>
+    <td><a href="https://github.com/pnuts2882ykr/DREAM-BROWSER/blob/main/README_JP.md">日本語</a></td>
   </tr>
   </tbody>
 </table>
@@ -61,10 +61,10 @@ Moving tabs is not supported, but is expected to be supported in the official ve
 
 ## Download
 
-You can download it [here](https://vcborn.com/services/DREAM-BROWSER/).  
-The latest development build can be downloaded [here](https://nightly.link/vcborn/DREAM-BROWSER/workflows/build-dev/dev).
+You can download it [here](https://pnuts2882ykr.com/services/DREAM-BROWSER/).  
+The latest development build can be downloaded [here](https://nightly.link/pnuts2882ykr/DREAM-BROWSER/workflows/build-dev/dev).
 
 ---
 
-Copyright &copy; 2021 VCborn.  
+Copyright &copy; 2021 pnuts2882ykr.  
 DREAM-BROWSER is released under the [monochrome License](https://www.monochrome.tk/mncr/license).

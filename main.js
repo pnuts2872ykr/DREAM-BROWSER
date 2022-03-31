@@ -565,12 +565,12 @@ let menu = Menu.buildFromTemplate([
             message: t['about'],
             detail: `DREAM-BROWSER v1.0.0-beta.6.2
 バージョン: 1.0.0-beta.6.2
-開発者: VCborn
+開発者: pnuts2882ykr
 
-リポジトリ: https://github.com/vcborn/DREAM-BROWSER
-公式サイト: https://vcborn.com/services/DREAM-BROWSER
+リポジトリ: https://github.com/pnuts2882ykr/DREAM-BROWSER
+公式サイト: https://pnuts2882ykr.com/services/DREAM-BROWSER
 
-Copyright 2021 vcborn.`,
+Copyright 2021 pnuts2882ykr.`,
           })
         },
       },
