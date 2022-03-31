@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>DREAM-BROWSER</title>
+  <link rel="stylesheet" href="style/navigation.css">
+  <link rel="stylesheet" href="resource/style/font.css">
+</head>
+
+<body>
+  <nav>
+    <a href="javascript:node.moveToNewTab(getCurrent())" title="%home%"></a>
+    <a href="javascript:node.reloadBrowser(getCurrent())" title="%reload%"></a>
+    <a href="javascript:node.backBrowser(getCurrent())" title="%back%"></a>
+    <a href="javascript:node.goBrowser(getCurrent())" title="%forward%"></a>
+    <input id="search" type="text" placeholder="%search%" title="%search%" onkeydown="searchEnter(this)">
+    <a href="javascript:moveBrowser(getCurrent())" title="%move%"></a>
+    <a href="javascript:node.winMinimize(getCurrent())" title="%minimize%"></a>
+    <a href="javascript:node.maxMin();" id="maxMini" title="%maximize%"></a>
+    <a href="javascript:node.winClose(getCurrent())" title="%close%"></a>
+  </nav>
+  <tab-el>
+    <div id="tab">
+      <span id="opened">
+        <a href="javascript:void(0)">Home</a>
+        <a href="javascript:void(0)"></a>
+      </span>
+    </div>
+    <a href="javascript:newtab('Home')"></a>
+  </tab-el>
+  <yomikomi-bar></yomikomi-bar>
+  <script src="script/moveBrowser.js"></script>
+  <script src="script/event.js"></script>
+</body>
+
+</html>

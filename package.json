@@ -1,0 +1,72 @@
+{
+  "name": "DREAM-BROWSER",
+  "version": "1.0.0-beta6.2",
+  "description": "Monot-based browser",
+  "main": "main.js",
+  "scripts": {
+    "test": "npx electron --trace-warnings .",
+    "build": "npx electron-builder",
+    "makeEnv": "src\\environment.cmd"
+  },
+  "author": "VCborn <support@vcborn.com>",
+  "homepage": "https://vcborn.com/services/DREAM-BROWSER/",
+  "license": "monochrome",
+  "devDependencies": {
+    "electron": "^17.2.0",
+    "electron-builder": "^22.14.13"
+  },
+  "build": {
+    "appId": "com.vcborn.DREAM-BROWSER",
+    "productName": "DREAM-BROWSER",
+    "files": [
+      "!.git",
+      "!.dist",
+      "node_modules",
+      "src",
+      "main.js",
+      "package-lock.json",
+      "package.json"
+    ],
+    "asar": false,
+    "win": {
+      "icon": "src/image/logo.ico",
+      "target": "portable",
+      "legalTrademarks": "Copyright 2021 VCborn"
+    },
+    "nsis": {
+      "artifactName": "${productName}_${version}_setup.${ext}",
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "src/image/logo.ico"
+    },
+    "portable": {
+      "artifactName": "${productName}_${version}_portable.${ext}"
+    },
+    "mac": {
+      "icon": "src/image/logo.icns",
+      "target": "dmg"
+    },
+    "linux": {
+      "icon": "src/image/icon.icns",
+      "target": "appImage"
+    },
+    "appImage": {
+      "artifactName": "${productName}_${version}_${arch}.${ext}",
+      "category": "Utility",
+      "synopsis": "DREAM-BROWSER v1.0.0-beta6.2"
+    },
+    "deb": {
+      "artifactName": "${productName}_${version}_${arch}.${ext}",
+      "category": "Utility",
+      "synopsis": "DREAM-BROWSER v1.0.0-beta6.2"
+    },
+    "rpm": {
+      "artifactName": "${productName}-${version}.${arch}.${ext}",
+      "category": "Utility",
+      "synopsis": "DREAM-BROWSER v1.0.0-beta6.2"
+    }
+  },
+  "dependencies": {
+    "electron-context-menu": "^3.1.2"
+  }
+}
