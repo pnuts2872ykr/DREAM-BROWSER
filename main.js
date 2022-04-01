@@ -570,7 +570,7 @@ let menu = Menu.buildFromTemplate([
 リポジトリ: https://github.com/pnuts2882ykr/DREAM-BROWSER
 公式サイト: https://pnuts2882ykr.com/services/DREAM-BROWSER
 
-Copyright 2021 pnuts2882ykr.`,
+Copyright 2022 pnuts2882ykr.`,
           })
         },
       },

@@ -32,7 +32,7 @@
     "win": {
       "icon": "src/image/logo.ico",
       "target": "portable",
-      "legalTrademarks": "Copyright 2021 pnuts2882ykr"
+      "legalTrademarks": "Copyright 2022 pnuts2882ykr"
     },
     "nsis": {
       "artifactName": "${productName}_${version}_setup.${ext}",
